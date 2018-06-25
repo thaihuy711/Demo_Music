@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/image_song_alternativerock"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_150"
+            android:background="@drawable/ambient"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AlternavtiveRock"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_20"
+            app:layout_constraintBottom_toBottomOf="@id/image_song_alternativerock"
+            app:layout_constraintLeft_toLeftOf="@id/image_song_alternativerock"
+            app:layout_constraintRight_toRightOf="@id/image_song_alternativerock"
+            app:layout_constraintTop_toTopOf="@id/image_song_alternativerock"
+            />
+
+        <ImageView
+            android:id="@+id/image_song_country"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_150"
+            android:background="@drawable/ambient"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_song_alternativerock"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_20"
+            app:layout_constraintBottom_toBottomOf="@id/image_song_country"
+            app:layout_constraintLeft_toLeftOf="@id/image_song_country"
+            app:layout_constraintRight_toRightOf="@id/image_song_country"
+            app:layout_constraintTop_toTopOf="@id/image_song_country"
+            />
+
+        <ImageView
+            android:id="@+id/image_song_ambient"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_150"
+            android:background="@drawable/ambient"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_song_country"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambient"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_20"
+            app:layout_constraintBottom_toBottomOf="@id/image_song_ambient"
+            app:layout_constraintLeft_toLeftOf="@id/image_song_ambient"
+            app:layout_constraintRight_toRightOf="@id/image_song_ambient"
+            app:layout_constraintTop_toTopOf="@id/image_song_ambient"
+            />
+
+        <ImageView
+            android:id="@+id/image_song_classical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_150"
+            android:background="@drawable/ambient"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_song_ambient"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classical"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_20"
+            app:layout_constraintBottom_toBottomOf="@id/image_song_classical"
+            app:layout_constraintLeft_toLeftOf="@id/image_song_classical"
+            app:layout_constraintRight_toRightOf="@id/image_song_classical"
+            app:layout_constraintTop_toTopOf="@id/image_song_classical"
+            />
+        <FrameLayout
+            android:id="@+id/content_home"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v4.widget.NestedScrollView>
